@@ -281,6 +281,7 @@ form.sign-up-form {
         right: initial;
         top: initial;
         transition: 2s ease-in-out;
+        z-index: 24;
     }
 
     .signin-signup {
@@ -296,6 +297,7 @@ form.sign-up-form {
         z-index: 10;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr 1fr;
+        z-index: 25;
     }
 
     .panel {
